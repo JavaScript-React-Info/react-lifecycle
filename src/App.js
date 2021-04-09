@@ -7,6 +7,7 @@ import ShouldComponentUpdateMethod from './components/updating/shouldComponentUp
 import GetSnapshotBeforeUpdateMethod from './components/updating/getSnapshotBeforeUpdateMethod'
 import ComponentDidUpdateMethod from './components/updating/componentDidUpdateMethod'
 import ComponentWillUnmountMethod from './components/unmounting/componentWillUnmountMethod'
+import ErrorApp from './components/ErrorHandling/ErrorBoundaryMethod'
 
 class App extends React.Component{
     render(){
@@ -34,6 +35,9 @@ class App extends React.Component{
                     <h2 className="ui block header">Unmounting phase</h2>
                     <h3>ComponentWillUnmount Method</h3>
                     <ComponentWillUnmountMethod/>
+                    <h2 className="ui block header">ErrorBoundary phase</h2>
+                    <h3>getDerivedStateFromError Method</h3>
+                    <ErrorApp/>
             </div>
 
         )
