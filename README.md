@@ -21,3 +21,7 @@
     Error Handling
     1. static getDerivedStateFromError()
     2. componentDidCatch()
+    
+    
+    ### Reference
+    https://blog.bitsrc.io/understanding-react-v16-4-new-component-lifecycle-methods-fa7b224efd7d
